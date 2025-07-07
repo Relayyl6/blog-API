@@ -1,5 +1,3 @@
-Here's the updated README.md file based on your provided code:
-
 # Article API with Node.js, Fastify, and MongoDB
 
 A high-performance RESTful API for managing articles built with Node.js, Fastify framework, and MongoDB database.
