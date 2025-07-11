@@ -17,14 +17,14 @@ A high-performance RESTful API for managing articles built with Node.js, Fastify
 - Node.js (v16 or higher recommended)
 - npm (comes with Node.js)
 - MongoDB Atlas account or local MongoDB instance
-- Postman or similar API testing tool (optional)
+- Postman or similar API testing tool (optional though i use httpie)
 
 ## Installation
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/article-api.git
+git clone https://github.com/relayly6/blog-api.git
 cd article-api
 ```
 
@@ -149,7 +149,7 @@ The API returns appropriate HTTP status codes:
 
 ## Debug Notes
 
-For MongoDB connection options, you might want to add these to your `mongoose.connect()`:
+For MongoDB connection options, you might want to add these to your `mongoose.connect()`: although they seem to be depreciated
 ```javascript
 mongoose.connect(dburl, { 
   useNewUrlParser: true, 

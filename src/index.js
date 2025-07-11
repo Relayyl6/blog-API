@@ -30,7 +30,7 @@ const start = async () => {
         await mongoose.connect(dburl);
         console.log('Connected to MongoDb');
         await fastify.listen({port : port});
-        console.log(`Server running at http://localhost:${listenPort}`);
+        console.log(`Server running at http://localhost:${port}`);
     } catch (err) {
         fastify.log.error(err);
         process.exit(1)
